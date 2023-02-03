@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" async></script>
+    <title>Slider JavaScript</title>
+  </head>
+  <body>
+    <main>
+      <div class="slider">
+        <div class="containerSlider">
+          <img src="ressource/sliderImageOne.png" alt="" class="on"/>
+          <img src="ressource/sliderImageTwo.png" alt="" />
+          <img src="ressource/sliderImageThree.png" alt="" />
+        </div>
+
+        <div class="commandes">
+
+          <button class="left">
+            <img src="ressource/leftBtn.svg" alt="">
+          </button>
+          
+          <button class="right">
+            <img src="ressource/rightBtn.svg" alt="">
+          </button>
+
+          <div class="containerBtn">
+            <button data-click="3" class="switchButton onBtn"></button>
+            <button data-click="2" class="switchButton"></button>
+            <button data-click="1" class="switchButton"></button>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
